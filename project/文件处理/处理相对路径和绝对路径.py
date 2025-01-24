@@ -12,10 +12,10 @@ print(Path.cwd())
 print((Path.cwd() / 'test.py').is_absolute())
 
 #os提供的方法 os.path.abspath(path)
-print(os.path.abspath('.')) #获得绝对的路径的字符串形式
+print(os.path.abspath('..')) #获得绝对的路径的字符串形式
 
 #判断是否是绝对路径， 如果是的话就返回True os.path.isabs(path)
-print(os.path.isabs('.'))
+print(os.path.isabs('..'))
 print(os.path.isabs(os.path.abspath('pathlib_Path_usage.py')))
 
 #os.path.relpath(path, start)， 将返回从开始路径到path的相对路径的字符串形式，

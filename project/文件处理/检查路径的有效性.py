@@ -7,7 +7,7 @@ from pathlib import Path
 import os
 winDir = Path('C:\code\python')
 notExistDit = Path("C:\code\python\sasdasdasdasdassd")
-calcFile = Path('C:\code\python\书上的例题\project\\test.py')
+calcFile = Path('/project/文件处理/test.py')
 print(winDir.exists())
 print(winDir.is_file())
 print(winDir.is_dir())
